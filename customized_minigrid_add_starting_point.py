@@ -340,7 +340,7 @@ if __name__ == "__main__":
 
 
     # 2. generate env from text file
-    env = FullyObsWrapper(CustomMiniGridEnv(txt_file_path='/home/siyao/project/rlPractice/MiniGrid/trainer/level/env1_keydoor.txt', 
+    env = FullyObsWrapper(CustomMiniGridEnv(txt_file_path='path/level/env1_keydoor.txt',
                                         custom_mission="Find the key and open the door.",
                                         max_steps=5000, render_mode='human'))
     env.reset()
